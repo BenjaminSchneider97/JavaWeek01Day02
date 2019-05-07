@@ -10,7 +10,7 @@ public class Main {
         if (n < 0) {
             System.out.println("You entered " + n + ", which is a negative Number!");
         } else {
-            System.out.println("You entered " + n + ", which is a positive Number!");
+            System.out.println("You entered " + n + ", which is a positive Number!!");
         }
 
     }
