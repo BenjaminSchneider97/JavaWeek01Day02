@@ -7,7 +7,7 @@ public class BasicA3 {
 
     System.out.println("Bitte geben Sie eine Zahl ein zwischen 1 und 7:");
 
-    int zahl= eingabe.nextInt();
+    String name= eingabe.nextLine();
 
 /*  if(zahl==1){
         System.out.println("Heute ist Montag");
@@ -33,32 +33,32 @@ public class BasicA3 {
     else {
         System.out.println("ES gibt nur 7 Wochentage");
     }
-
 */
-        switch(zahl) {
-            case 1:
-                System.out.println("Monday!");
+       String name1 = "Maria";
+       String name2 = "Stefan";
+       String name3 = "David";
+       String name4 = "Johanna";
+
+
+
+
+        switch(name) {
+            case "Maria":
+                System.out.println("Maria putze bitte deine Zähne");
                 break;
-            case 2:
-                System.out.println("Tuesday!");
+            case "Stefan":
+                System.out.println("Stefan es ist Dienstag");
                 break;
-            case 3:
-                System.out.println("Wednesday!");
+            case "David":
+                System.out.println("David es ist schon spät");
                 break;
-            case 4:
-                System.out.println("Thursday!");
+            case "Johanna":
+                System.out.println("Trage den Müll heraus");
                 break;
-            case 5:
-                System.out.println("Friday!");
-                break;
-            case 6:
-                System.out.println("Saturday!");
-                break;
-            case 7:
-                System.out.println("Sunday!");
-                break;
-            default:
-                System.out.println("The week only has 7 days!");
+
+
+                default:
+                System.out.println("Ich habe keine Kinder");
         }
     }
 }

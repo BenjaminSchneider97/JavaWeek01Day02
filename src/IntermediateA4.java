@@ -14,7 +14,7 @@ public class IntermediateA4 {
 
         if (n > m ){
             System.out.println(n + " is bigger than " + m);
-        } else if (m > n){
+        } else {
             System.out.println(m + " is bigger than " + n);
         }
     }

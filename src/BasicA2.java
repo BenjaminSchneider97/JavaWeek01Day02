@@ -3,7 +3,28 @@ public class BasicA2 {
 
     public static void main(String[] args){
 
-        Scanner in = new Scanner(System.in);
+
+      Scanner insert= new Scanner(System.in);
+
+      System.out.println("Please enter a number: ");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        /*Scanner in = new Scanner(System.in);
         System.out.print("Enter the number: ");
         double n = in.nextDouble();
 
@@ -20,7 +41,7 @@ public class BasicA2 {
         } else if (n < 1){
             System.out.println("You entered " + n + " which is a small positive number!");
         } else if (n > 0){
-            System.out.println("You entered " + n + " which is a positive number!");
+            System.out.println("You entered " + n + " which is a positive number!");*/
         }
     }
-}
+
