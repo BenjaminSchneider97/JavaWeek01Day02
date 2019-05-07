@@ -9,17 +9,14 @@ public class BasicA3 {
 
     int zahl= eingabe.nextInt();
 
-    if(zahl==1){
-
+/*  if(zahl==1){
         System.out.println("Heute ist Montag");
     }
     if(zahl==2){
-
         System.out.println("Heute ist Dienstag");
     }
      else if(zahl==3) {
-
-        System.out.println("Heute ist MIttwoch");
+        System.out.println("Heute ist Mittwoch");
     }
      else if (zahl ==4) {
         System.out.println("Heute is Donnerstag");
@@ -37,4 +34,31 @@ public class BasicA3 {
         System.out.println("ES gibt nur 7 Wochentage");
     }
 
-}}
+*/
+        switch(zahl) {
+            case 1:
+                System.out.println("Monday!");
+                break;
+            case 2:
+                System.out.println("Tuesday!");
+                break;
+            case 3:
+                System.out.println("Wednesday!");
+                break;
+            case 4:
+                System.out.println("Thursday!");
+                break;
+            case 5:
+                System.out.println("Friday!");
+                break;
+            case 6:
+                System.out.println("Saturday!");
+                break;
+            case 7:
+                System.out.println("Sunday!");
+                break;
+            default:
+                System.out.println("The week only has 7 days!");
+        }
+    }
+}
