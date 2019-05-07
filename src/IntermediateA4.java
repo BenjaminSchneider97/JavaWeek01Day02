@@ -4,13 +4,13 @@ public class IntermediateA4 {
 
     public static void main(String[] args) {
 
-        Scanner num1 = new Scanner(System.in);
-        System.out.print("Enter the first number: ");
-        int n = num1.nextInt();
+        Scanner num = new Scanner(System.in);
 
-        Scanner num2 = new Scanner(System.in);
+        System.out.print("Enter the first number: ");
+        int n = num.nextInt();
+
         System.out.print("Enter the second number: ");
-        int m = num2.nextInt();
+        int m = num.nextInt();
 
         if (n > m ){
             System.out.println(n + " is bigger than " + m);
