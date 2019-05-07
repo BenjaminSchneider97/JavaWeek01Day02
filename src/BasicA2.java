@@ -13,7 +13,7 @@ public class BasicA2 {
             System.out.println("You entered " + n + " which is a large negative number!");
         } else if (n > -10 && n < 0){
             System.out.println("You entered " + n + " which is a small negative number!");
-        } else if (n < -10){
+        } else if (n < -9){
             System.out.println("You entered " + n + " which is a negative number!");
         } else if (n > 1000000){
             System.out.println("You entered " + n + " which is a large positive number");
