@@ -12,7 +12,7 @@ public class IntermediateA4 {
         System.out.print("Enter the second number: ");
         int m = num.nextInt();
 
-        if (n > m ){
+        if (n > m) {
             System.out.println(n + " is bigger than " + m);
         } else {
             System.out.println(m + " is bigger than " + n);

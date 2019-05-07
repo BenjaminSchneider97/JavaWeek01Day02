@@ -10,7 +10,6 @@ public class IntermediateA5 {
         int n = num.nextInt();
 
         if (n % 2 == 0) {
-
             System.out.println("Wir haben hier eine gerade Zahl");
         } else {
             System.out.println("Hier handelt es sich um eine ungerade Zahl");
